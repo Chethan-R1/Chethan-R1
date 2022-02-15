@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>ServletPro</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <!-- configure my servlet -->
+  <servlet>
+  <servlet-name>first</servlet-name>
+  <servlet-class>com.Simplilearn.Demo.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>first</servlet-name>
+  <url-mapping>/login</url-mapping>
+  </servlet-mapping>
+</web-app>
